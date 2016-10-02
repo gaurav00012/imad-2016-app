@@ -22,7 +22,7 @@ var articles = {
                 </p>`
 },
    ' article-Two' : {
-        title : 'Article TWo : Gaurav Aggarwal',
+        title : 'Article Two : Gaurav Aggarwal',
         heading : 'Article Two',
         date : 'Sep 11 , 2016',
         content : `
