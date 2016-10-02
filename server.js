@@ -33,7 +33,8 @@ var articles = {
                  <p>
                     This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.
                 </p>`},
-   'article-Three' : { title : 'Article Three : Gaurav Aggarwal',
+   'article-Three' : { 
+       title : 'Article Three : Gaurav Aggarwal',
         heading : 'Article Three',
         date : 'Sep 13 , 2016',
         content : `
