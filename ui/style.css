@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     background-color: #00ff96;
     margin-top: 75px;
-    color:yellow;
+    
 }
 
 .center {
@@ -23,9 +23,10 @@ body {
 .container{
        max-width:800px;
        margin:0 auto;
-       color:grey;
+       
        font-family:sans-serif;
        padding-top:60px;
        padding-left: 20px;
        padding-right:20px;
+       color: yellow;
             }
