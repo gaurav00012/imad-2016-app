@@ -6,11 +6,12 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var articleOne ={
-    title : 'Article One : Gaurav Aggarwal',
-    heading : 'Article One',
-    date : 'Sep 9 , 2016',
-    content : ` <p>
+var articles = {
+    articleOne :{
+        title : 'Article One : Gaurav Aggarwal',
+        heading : 'Article One',
+        date : 'Sep 9 , 2016',
+        content : ` <p>
                     This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.
                 </p>
                  <p>
@@ -19,6 +20,34 @@ var articleOne ={
                  <p>
                     This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.
                 </p>`
+},
+    articleTwo : {
+        title : 'Article TWo : Gaurav Aggarwal',
+        heading : 'Article Two',
+        date : 'Sep 11 , 2016',
+        content : `
+        <p>
+                    This content is of article two...BAT2.
+                </p>
+               
+                 <p>
+                    This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.
+                </p>`},
+    articleThree : { title : 'Article Three : Gaurav Aggarwal',
+        heading : 'Article Three',
+        date : 'Sep 13 , 2016',
+        content : `
+        <p>
+                    This content is of article three...BAT3.
+                    Batman is a fictional superhero appearing in American comic books published by DC Comics. The character was created by artist Bob Kane and writer Bill Finger, and first appeared in Detective Comics #27 (May 1939). Originally named the "Bat-Man", the character is also referred to by such epithets as the Caped Crusader, the Dark Knight, and the World's Greatest Detective.
+                </p>
+               
+                 <p>
+                    This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.
+                </p>`
+        
+    }
+    
 };
  function createTemplate(data){
      var title = data.title;
