@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 
 var articles = {
-    articleOne :{
+   'article-one' : {
         title : 'Article One : Gaurav Aggarwal',
         heading : 'Article One',
         date : 'Sep 9 , 2016',
@@ -21,7 +21,7 @@ var articles = {
                     This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.
                 </p>`
 },
-    articleTwo : {
+   ' article-Two' : {
         title : 'Article TWo : Gaurav Aggarwal',
         heading : 'Article Two',
         date : 'Sep 11 , 2016',
@@ -33,7 +33,7 @@ var articles = {
                  <p>
                     This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.
                 </p>`},
-    articleThree : { title : 'Article Three : Gaurav Aggarwal',
+   'article-Three' : { title : 'Article Three : Gaurav Aggarwal',
         heading : 'Article Three',
         date : 'Sep 13 , 2016',
         content : `
@@ -95,7 +95,7 @@ app.get('/', function (req, res) {
 app.get('/articleNames', function (req,res) {
     //articleName == article-one
     //articles[articleName]=={} content object for article one
-     res.send(createTemplate(articleOne));
+     res.send(createTemplate(articleName));
 });
 app.get('/article-two', function (req,res) {
    res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
