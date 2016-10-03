@@ -21,7 +21,7 @@ var articles = {
                     I am batman 
                 </p>`
 },
-   ' article-Two' : {
+   'article-Two' : {
         title : 'Article Two : Gaurav Aggarwal',
         heading : 'Article Two',
         date : 'Sep 11 , 2016',
@@ -31,7 +31,9 @@ var articles = {
                
                  <p>
                     This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.
-                </p>`},
+                </p>`
+       
+   },
    'article-Three' : { 
        title : 'Article Three : Gaurav Aggarwal',
         heading : 'Article Three',
@@ -54,9 +56,7 @@ var articles = {
      var date = data.date;
      var heading = data.heading;
      var content = data.content;
-     
-     
- var htmlTemplate = `
+     var htmlTemplate = `
  <html>
   <head>
         <title>
@@ -83,8 +83,7 @@ var articles = {
             </div>
         </div>
     </body>
-</html> 
-`;
+</html> `;
 
 return htmlTemplate;
 }
