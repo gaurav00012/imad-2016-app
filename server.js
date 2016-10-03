@@ -18,7 +18,7 @@ var articles = {
                     This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.
                 </p>
                  <p>
-                    This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.This is the fake content.
+                    I am batman 
                 </p>`
 },
    ' article-Two' : {
