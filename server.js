@@ -25,8 +25,7 @@ var articles = {
         title : 'Article Two : Gaurav Aggarwal',
         heading : 'Article Two',
         date : 'Sep 11 , 2016',
-        content : `
-        <p>
+        content : `   <p>
                     This content is of article two...BAT2.
                 </p>
                
